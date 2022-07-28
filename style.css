@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #fff;
+    background-repeat: no-repeat; 	
+    background-attachment: fixed;
+}
+
+section{
+    margin-top: 8vh;
+}
+
+article{
+    
+}
+
+hr{
+    margin-top: 3vh;
+    width: 30%;
+}
+
+.container{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.container.menu{
+    justify-content: space-between;
+    align-items: top;
+    background: rgb(159,142,118);
+    background: Indigo;
+    
+ /*  background: rgb(79,65,97);
+background: linear-gradient(90deg, rgba(79,65,97,1) 0%, rgba(44,34,58,0.9795468632300295) 56%); */
+}
+
+.container.showcase div{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container.showcase h2{
+    font-size: 6vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container.showcase h6{
+    font-size: 3vh;
+    font-family: 'Amatic SC', cursive;
+    color: DarkTurquoise;
+}
+
+.container.showcase p{
+    margin-top: 1vh;
+    width: 90%;
+    text-align: center;
+    font-size: 2vh;
+    color: DimGray;
+}
+.container.showcase img{
+    height: 10vh;
+    padding-right: 3vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-beetween;
+    padding: 10px;
+}
+
+.box span img{
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+.box.logo a{
+    font-size: 4vw;
+    font-family: 'Shadows Into Light';
+    font-weight: 600;
+    color: Gainsboro;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.box.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box.links li{
+    list-style: none;
+    margin-left: 3vh;
+}
+
+.box.links a{
+    font-size: 3vw;
+    color: 	Gainsboro;
+    text-decoration: none;
+}
+
+.box.links a:hover{
+    color: Snow;
+}
+
+section.main{
+    margin-top: 5vh;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: DarkTurquoise;
+    color: Black;
+    width: 65%;
+    padding: 1vh;
+    border-radius: 1vw;
+    font-size: 3vw;
+}
+
+.images{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 2vh;
+    overflow: hidden;
+    width: 42%;
+}
+
+.image-box img{
+    height: 13vh;
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: transform 0.2s linear;
+}
+
+.image-box:hover img{
+    transform: scale(0.95);
+}
+
+.image-box h6{
+    font-size: 3vw;
+    margin-top: 1vw;
+    text-transform: capitalize;
+    font-weight: 500;
+}
